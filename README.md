@@ -1,2 +1,2 @@
 # REST-API-for-Cab-Booking-Application
-To Create an Application for Online Cab Booking
+To Create an Application for Cab Booking
