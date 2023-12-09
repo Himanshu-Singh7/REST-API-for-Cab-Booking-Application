@@ -20,7 +20,6 @@ public class CabController {
     @PostMapping("/save")
     public ResponseEntity<CabDto> createCabDetail(@RequestBody CabDto cabDto){
         CabDto cab = this.cabService.createCab(cabDto);
-
         return new ResponseEntity<>(cab , HttpStatus.CREATED);
     }
 }
